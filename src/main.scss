@@ -1,19 +1,35 @@
 
+$primary:#043873;
+$secondary:#FFE492;
+$info:#4F9CF9;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 @import '_color.scss';
 
+@import '_spacing.scss';
+
+
+
 
 .body{
-    background-color: $white;
+    background-color: $white !important;
 }
 
 .primary-background{
     background-color: $primary;
 }
 
+.sky-blue-background{
+    background-color: $sky-blue;
+}
+
 .white-text-color{
     color: $white !important; 
+}
+
+.black-text-color{
+    color: $black !important;
 }
 
 .body-margin{
