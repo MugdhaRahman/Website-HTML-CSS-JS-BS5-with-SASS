@@ -5,9 +5,9 @@ $info:#4F9CF9;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import '_color.scss';
+@import 'color.scss';
 
-@import '_spacing.scss';
+@import '_dime.scss';
 
 
 
@@ -34,4 +34,17 @@ $info:#4F9CF9;
 
 .body-margin{
     margin: 0 220px 0 220px !important;
+}
+
+.responsive-img {
+    max-width: 824px; /* Set a maximum width for larger screens */
+    width: 100%; /* For responsiveness, it scales down */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.bg-style{
+    background-image: url('res/bg-style.svg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }

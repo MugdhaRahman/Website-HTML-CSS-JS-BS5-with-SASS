@@ -11969,6 +11969,10 @@ textarea.form-control-lg {
   margin: 0 220px 0 220px !important;
 }
 
+.content-margin-top {
+  margin: 140px 0 0 0 !important;
+}
+
 .body {
   background-color: #FFFFFF !important;
 }
@@ -11991,4 +11995,16 @@ textarea.form-control-lg {
 
 .body-margin {
   margin: 0 220px 0 220px !important;
+}
+
+.responsive-img {
+  max-width: 824px; /* Set a maximum width for larger screens */
+  width: 100%; /* For responsiveness, it scales down */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.bg-style {
+  background-image: url("res/bg-style.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
