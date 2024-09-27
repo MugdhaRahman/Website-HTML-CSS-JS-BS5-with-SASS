@@ -20,6 +20,10 @@ $info:#4F9CF9;
     background-color: $primary;
 }
 
+.white-background{
+    background-color: $white;
+}
+
 .sky-blue-background{
     background-color: $sky-blue;
 }
@@ -37,9 +41,9 @@ $info:#4F9CF9;
 }
 
 .responsive-img {
-    max-width: 824px; /* Set a maximum width for larger screens */
-    width: 100%; /* For responsiveness, it scales down */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 686px;
+    width: 100%; 
+    height: auto;
 }
 
 
