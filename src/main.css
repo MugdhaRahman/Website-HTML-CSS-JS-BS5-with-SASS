@@ -12017,4 +12017,11 @@ textarea.form-control-lg {
   background-image: url("res/bg-style-2.svg");
   background-size: auto;
   background-repeat: no-repeat;
+}
+
+.card:hover {
+  background-color: #043873;
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
 }/*# sourceMappingURL=main.css.map */
