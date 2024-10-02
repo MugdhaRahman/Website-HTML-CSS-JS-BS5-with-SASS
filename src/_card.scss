@@ -1,8 +1,9 @@
 .card:hover {
     background-color: $primary;
     color: $white;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
-    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1); 
+    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease , padding 0.5s ease , transform 0.5s ease;
 }
 
 .card:hover svg path {
