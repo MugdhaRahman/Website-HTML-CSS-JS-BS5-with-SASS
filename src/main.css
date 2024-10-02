@@ -11973,6 +11973,30 @@ textarea.form-control-lg {
   margin: 140px 0 0 0 !important;
 }
 
+.card:hover {
+  background-color: #043873;
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card:hover svg path {
+  stroke: #FFE492;
+  transition: stroke 0.5s ease;
+}
+
+.card:hover .btn {
+  background-color: #4F9CF9;
+  color: #FFFFFF !important;
+  border: 0;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.card:hover h2, .card:hover .h2 {
+  color: #FFE492;
+  transition: color 0.5s ease;
+}
+
 .body {
   background-color: #FFFFFF !important;
 }
@@ -12017,28 +12041,4 @@ textarea.form-control-lg {
   background-image: url("res/bg-style-2.svg");
   background-size: auto;
   background-repeat: no-repeat;
-}
-
-.card:hover {
-  background-color: #043873;
-  color: #FFFFFF;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
-}
-
-.card:hover svg path {
-  stroke: #FFE492;
-  transition: stroke 0.5s ease;
-}
-
-.card:hover .btn {
-  background-color: #4F9CF9;
-  color: #FFFFFF !important;
-  border: 0;
-  transition: background-color 0.5s ease, color 0.5s ease;
-}
-
-.card:hover h2, .card:hover .h2 {
-  color: #FFE492;
-  transition: color 0.5s ease;
 }/*# sourceMappingURL=main.css.map */
