@@ -1,62 +1,57 @@
-
-$primary:#043873;
-$secondary:#FFE492;
-$info:#4F9CF9;
+$primary: #043873;
+$secondary: #ffe492;
+$info: #4f9cf9;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import 'color.scss';
+@import "color.scss";
 
-@import '_dime.scss';
+@import "dime.scss";
 
-@import 'card.scss';
+@import "card.scss";
 
-
-
-
-.body{
-    background-color: $white !important;
+.body {
+  background-color: $white !important;
 }
 
-.primary-background{
-    background-color: $primary;
+.primary-background {
+  background-color: $primary;
 }
 
-.white-background{
-    background-color: $white;
+.white-background {
+  background-color: $white;
 }
 
-.sky-blue-background{
-    background-color: $sky-blue;
+.sky-blue-background {
+  background-color: $sky-blue;
 }
 
-.white-text-color{
-    color: $white !important; 
+.white-text-color {
+  color: $white !important;
 }
 
-.black-text-color{
-    color: $black !important;
+.black-text-color {
+  color: $black !important;
 }
 
-.body-margin{
-    margin: 0 220px 0 220px !important;
+.body-margin {
+  margin: 0 220px 0 220px !important;
 }
 
 .responsive-img {
-    max-width: 686px;
-    width: 100%; 
-    height: auto;
+  max-width: 686px;
+  width: 100%;
+  height: auto;
 }
 
-
-.bg-style{
-    background-image: url('res/bg-style.svg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
+.bg-style {
+  background-image: url("res/bg-style.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.bg-style-2{
-    background-image: url('res/bg-style-2.svg');
-    background-size:auto; 
-    background-repeat: no-repeat;
+.bg-style-2 {
+  background-image: url("res/bg-style-2.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
 }
